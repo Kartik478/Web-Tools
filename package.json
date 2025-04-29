@@ -1,0 +1,27 @@
+{
+  "name": "crossdev-toolkit",
+  "version": "0.1.0",
+  "description": "Cross-platform developer tools for Windows, Linux, and macOS",
+  "main": "src/bindings/js/index.js",
+  "scripts": {
+    "test": "node tests/js/test-runner.js",
+    "example": "node docs/examples/js_filesystem_example.js"
+  },
+  "keywords": [
+    "cross-platform",
+    "developer-tools",
+    "filesystem",
+    "windows",
+    "linux",
+    "macos"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.0.0"
+  }
+} 
